@@ -1,0 +1,49 @@
+{
+  "viewportWidth": 2500,
+  "breakPoints": {
+    "Biggest": {
+      "width": "3000px"
+    },
+    "tv": {
+      "width": "2570px"
+    },
+    "lgs": {
+      "width": "1945px"
+    },
+    "lg": {
+      "width": "1562px"
+    },
+    "laptopM": {
+      "width": "1445px"
+    },
+    "laptopMd": {
+      "width": "1390px"
+    },
+    "laptopMdMn": {
+      "width": "1300px"
+    },
+    "laptopMini": {
+      "width": "1250px"
+    },
+    "ipad": {
+      "width": "1024px"
+    },
+    "md": {
+      "width": "992px"
+    },
+    "fabletMid": {
+      "width": "840px"
+    },
+    "sm": {
+      "width": "768px",
+      "fields": "15px"
+    },
+    "smM": {
+      "width": "668px",
+      "fields": "15px"
+    },
+    "xs": {
+      "width": "578px"
+    }
+  }
+}
