@@ -86,6 +86,10 @@
   margin-right: 13px;
 }
 
+.header {
+  background-color: #F2FAFA;
+}
+
 .header-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -100,7 +104,6 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #fff;
-  padding: 0.78125vw 1.04167vw;
   border-radius: 2.60417vw;
 }
 
@@ -129,11 +132,6 @@
 
 .header-wrapper .page__btn-1 {
   margin-left: 3.125vw;
-}
-
-.header {
-  padding-top: 2.60417vw;
-  background-color: #F2FAFA;
 }
 
 .burger {
@@ -437,10 +435,6 @@
   border: transparent;
   background-color: #1E88E5;
   border-radius: 10px;
-}
-
-body {
-  margin: 10px;
 }
 
 @media screen and (max-width: 1562px) {
