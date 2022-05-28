@@ -5,31 +5,34 @@
 
     &__title
         &-h1
-            font-family: Poppins
-            font-weight: 700
-            font-size: vw(65)
-            line-height: vw(97.5)
-            +fabletMid-block
-                font-size: 45px
-                line-height: 60px
-            +sm-block
-                font-size: 35px
-                line-height: 60px
+            font-family: Calibri-Bold
+            font-size: 60px
+            color: #141419
+            line-height: 72px
+            position: relative
+            &::after
+                content: ''
+                position: absolute
+                background-color: #fb973b
+                width: 100%
+
     &__text
         &-18-Regular
-            font-family: Poppins
-            font-weight: 400
-            font-size: vw(18)
-            color: #252525
-            +lg-block
-                font-size: 18px
-            &-grey
-                font-family: Poppins
-                font-weight: 400
-                font-size: vw(18)
-                color: #9D9D9D
-                +lg-block
-                    font-size: 18px
+            font-family: Calibri-Regular
+            font-size: 18px
+            color: #616161
+            transition: .2s ease-in-out
+            &:hover
+                color: #fb973b
+                transition: .2s ease-in-out
+        &-18-Bold
+            font-family: Calibri-Bold
+            font-size: 18px
+            color: #141419
+            &:hover
+                color: #fb973b
+                transition: .2s ease-in-out
+
     &__link
         color: #252525
     &__btn

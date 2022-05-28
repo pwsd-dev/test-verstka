@@ -189,7 +189,8 @@ img {
 
 body {
   font-family: "OpenSans-Regular";
-  background: #fff;
+  background: url(../assets/images/png/background.png);
+  background-repeat: no-repeat;
 }
 
 body.modal-open {
@@ -223,8 +224,8 @@ input:focus {
 
 @media screen and (max-width: 1945px) {
   .wrapper {
-    max-width: -webkit-calc(100vw - 120px);
-    max-width: calc(100vw - 120px);
+    max-width: -webkit-calc(100vw - 310px);
+    max-width: calc(100vw - 310px);
   }
 }
 
