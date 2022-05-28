@@ -1,7 +1,36 @@
-/*banner*/
+.banner {
+  padding-top: 10px;
+}
+
+.banner-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.banner-wrapper__left {
+  max-width: 677px;
+}
+
+.banner-wrapper__left .page__title-h1 {
+  margin-bottom: 32px;
+}
+
+.banner-wrapper__left .page__text-24-Bold {
+  max-width: 335px;
+}
+
+.banner-wrapper__right {
+  width: 982px;
+}
 
 .header {
-  padding-top: 17px;
+  padding-top: 28px;
 }
 
 .header-wrapper {
@@ -280,14 +309,14 @@
   font-size: 60px;
   color: #141419;
   line-height: 72px;
-  position: relative;
 }
 
-.page__title-h1::after {
-  content: '';
-  position: absolute;
-  background-color: #fb973b;
-  width: 100%;
+.page__title-h1 span {
+  background-image: -webkit-gradient(linear, left top, right top, from(#fb973b), to(#fb973b));
+  background-image: linear-gradient(to right, #fb973b 0%, #fb973b 100%);
+  background-repeat: repeat-x;
+  background-position: 0% 70%;
+  background-size: 100% 10px;
 }
 
 .page__text-18-Regular {
@@ -314,6 +343,17 @@
   color: #fb973b;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
+}
+
+.page__text-24-Bold {
+  font-family: Calibri-Bold;
+  font-size: 24px;
+  color: #141419;
+  line-height: 36px;
+}
+
+.page__text-24-Bold span {
+  color: #fb973b;
 }
 
 .page__link {

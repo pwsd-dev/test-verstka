@@ -9,12 +9,11 @@
             font-size: 60px
             color: #141419
             line-height: 72px
-            position: relative
-            &::after
-                content: ''
-                position: absolute
-                background-color: #fb973b
-                width: 100%
+            span
+                background-image: linear-gradient(to right, #fb973b 0%, #fb973b 100%)
+                background-repeat: repeat-x
+                background-position: 0% 70%
+                background-size: 100% 10px
 
     &__text
         &-18-Regular
@@ -32,6 +31,13 @@
             &:hover
                 color: #fb973b
                 transition: .2s ease-in-out
+        &-24-Bold
+            font-family: Calibri-Bold
+            font-size: 24px
+            color: #141419
+            line-height: 36px
+            span
+                color: #fb973b
 
     &__link
         color: #252525
