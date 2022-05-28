@@ -75,6 +75,8 @@
 .banner-wrapper__left {
   max-width: 677px;
   min-width: 677px;
+  position: relative;
+  left: 50px;
 }
 
 .banner-wrapper__left .page__title-h1 {
@@ -490,8 +492,27 @@
 }
 
 @media screen and (max-width: 1480px) {
+  .banner-wrapper__left {
+    min-width: 570px;
+  }
+
   .banner-wrapper__right .page__img {
-    width: 600px;
+    width: 650px;
+  }
+
+  .page__title-h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+
+  .page__title-h1 span {
+    background-size: 100% 8px;
+    background-position: 0% 80%;
+  }
+
+  .page__text-24-Bold {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
