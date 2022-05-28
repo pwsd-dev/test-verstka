@@ -1,5 +1,7 @@
 const $jq = jQuery.noConflict();
 
+$jq(".phone_mask").mask("+7(999)999-99-99");
+
 $jq(document).ready(function () {
   $jq(".slider-freelance").slick({
     // mobileFirst: true,
