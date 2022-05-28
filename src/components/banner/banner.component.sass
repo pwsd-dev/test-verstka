@@ -1,12 +1,16 @@
 .banner
     padding-top: 10px
+    +middlelg-block
+        padding-top: 25px
 
 .banner-wrapper
     display: flex
     align-items: center
+    justify-content: center
 
 .banner-wrapper__left
     max-width: 677px
+    min-width: 677px
 
     .page__title-h1
         margin-bottom: 32px
@@ -17,6 +21,12 @@
 .banner-wrapper__right
     .page__img
         width: 982px
+        +midlg-block
+            width: 830px
+        +lgsa-block
+            width: 710px
+        +laptopM-block
+            width: 600px
 
 .banner-wrapper__row
     display: flex

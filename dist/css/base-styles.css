@@ -237,6 +237,20 @@ input:focus {
   }
 }
 
+@media screen and (max-width: 1682px) {
+  .wrapper {
+    max-width: -webkit-calc(100vw - 200px);
+    max-width: calc(100vw - 200px);
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .wrapper {
+    max-width: -webkit-calc(100vw - 140px);
+    max-width: calc(100vw - 140px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .wrapper {
     padding-left: 15px;

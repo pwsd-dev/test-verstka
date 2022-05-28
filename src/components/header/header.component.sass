@@ -7,25 +7,18 @@
     align-items: center
     background-color: #fff
 
-    +xs-block
-        padding: 18px 20px
-    .page__link
-        margin: vw(0) vw(18.5)
-        transition: .2s ease-in-out
-        &:hover
-            color: #1E88E5
-            transition: .2s ease-in-out
-
-    .mid
-        display: flex
-        align-items: center
-        +laptopMini-block
-            display: none
-
 .header-wrapper__mid
+    +laptopMini-block
+        display: none
     .page__text-18-Regular
         margin: 0 39px
         transition: .2s ease-in-out
+        +lg-block
+            margin: 0 19px
+
+.header-wrapper__right
+    +laptopMini-block
+        display: none
 
 .burger
     display: none

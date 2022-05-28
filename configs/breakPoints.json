@@ -10,11 +10,20 @@
     "lgs": {
       "width": "1945px"
     },
+    "midlg": {
+      "width": "1862px"
+    },
+    "middlelg": {
+      "width": "1762px"
+    },
+    "lgsa": {
+      "width": "1682px"
+    },
     "lg": {
       "width": "1562px"
     },
     "laptopM": {
-      "width": "1445px"
+      "width": "1480px"
     },
     "laptopMd": {
       "width": "1390px"

@@ -32,13 +32,17 @@
 
 .banner
     padding-top: 10px
+    +middlelg-block
+        padding-top: 25px
 
 .banner-wrapper
     display: flex
     align-items: center
+    justify-content: center
 
 .banner-wrapper__left
     max-width: 677px
+    min-width: 677px
 
     .page__title-h1
         margin-bottom: 32px
@@ -49,6 +53,12 @@
 .banner-wrapper__right
     .page__img
         width: 982px
+        +midlg-block
+            width: 830px
+        +lgsa-block
+            width: 710px
+        +laptopM-block
+            width: 600px
 
 .banner-wrapper__row
     display: flex
@@ -70,25 +80,18 @@
     align-items: center
     background-color: #fff
 
-    +xs-block
-        padding: 18px 20px
-    .page__link
-        margin: vw(0) vw(18.5)
-        transition: .2s ease-in-out
-        &:hover
-            color: #1E88E5
-            transition: .2s ease-in-out
-
-    .mid
-        display: flex
-        align-items: center
-        +laptopMini-block
-            display: none
-
 .header-wrapper__mid
+    +laptopMini-block
+        display: none
     .page__text-18-Regular
         margin: 0 39px
         transition: .2s ease-in-out
+        +lg-block
+            margin: 0 19px
+
+.header-wrapper__right
+    +laptopMini-block
+        display: none
 
 .burger
     display: none
