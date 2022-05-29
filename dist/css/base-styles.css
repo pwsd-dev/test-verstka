@@ -251,6 +251,13 @@ input:focus {
   }
 }
 
+@media screen and (max-width: 1124px) {
+  .wrapper {
+    max-width: -webkit-calc(100vw - 100px);
+    max-width: calc(100vw - 100px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .wrapper {
     padding-left: 15px;
@@ -258,7 +265,7 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 698px) {
   .wrapper {
     padding-left: 15px;
     padding-right: 15px;

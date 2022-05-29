@@ -34,6 +34,9 @@
     "laptopMini": {
       "width": "1250px"
     },
+    "big-tablet": {
+      "width": "1124px"
+    },
     "ipad": {
       "width": "1024px"
     },
@@ -48,11 +51,14 @@
       "fields": "15px"
     },
     "smM": {
-      "width": "668px",
+      "width": "698px",
       "fields": "15px"
     },
     "xs": {
       "width": "578px"
+    },
+    "xxs": {
+      "width": "428px"
     }
   }
 }

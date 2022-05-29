@@ -1,6 +1,10 @@
 .about
     padding-top: 132px
     padding-bottom: 200px
+    +laptopM-block
+        padding-top: 70px
+    +smM-block
+        padding-top: 45px
 
 .about-wrapper
     .page__title-h1
@@ -15,16 +19,32 @@
 .about-wrapper-center
     display: flex
     justify-content: center
+    +ipad-block
+        align-items: center
+    +smM-block
+        flex-direction: column
+        justify-content: center
 
 .about-wrapper-center__left
     margin-right: 25px
+    +smM-block
+        margin-right: 0px
+    .page__img
+        +fabletMid-block
+            max-width: 300px
+        +smM-block
+            margin-bottom: 35px
+            max-width: 260px
+        +xxs-block
+            max-width: 200px
 
 .about-wrapper-center__right
     display: flex
     flex-direction: column
-    // justify-content: center
     align-items: center
     margin-left: 25px
+    +smM-block
+        margin-left: 0
     .page__text-18-Regular-black
         max-width: 426px
         text-align: center
@@ -32,8 +52,8 @@
 
 .banner
     padding-top: 10px
-    +middlelg-block
-        padding-top: 25px
+    +midlg-block
+        padding-top: 36px
     +lgsa-block
         padding-top: 45px
 
@@ -41,6 +61,11 @@
     display: flex
     align-items: center
     justify-content: center
+    +laptopMini-block
+        align-items: flex-start
+    +smM-block
+        flex-direction: column
+        align-items: center
 
 .banner-wrapper__left
     max-width: 677px
@@ -49,35 +74,57 @@
     left: 50px
     +laptopM-block
         min-width: 570px
+        left: 30px
     +laptopMini-block
         max-width: 480px
-        min-width: 420px
+        min-width: 480px
         left: 0
     +ipad-block
-        left: 20px
+        left: 40px
+    +md-block
+        min-width: 328px
+    +smM-block
+        left: 0
 
     .page__title-h1
         margin-bottom: 32px
+        +smM-block
+            text-align: center
     .page__text-24-Bold
         max-width: 335px
         margin-bottom: 42px
+        +smM-block
+            text-align: center
+            margin: 0 auto
+            margin-bottom: 42px
 
 .banner-wrapper__right
     .page__img
         width: 982px
         +midlg-block
-            width: 830px
+            max-width: 830px
         +lgsa-block
-            width: 710px
+            max-width: 710px
         +laptopM-block
-            width: 650px
+            max-width: 650px
         +laptopMini-block
-            width: 500px
+            max-width: 500px
+        +fabletMid-block
+            max-width: 400px
+        +xxs-block
+            max-width: 300px
 
 .banner-wrapper__row
     display: flex
     align-items: center
+    +smM-block
+        justify-content: center
+        margin-bottom: 45px
+    +xxs-block
+        flex-direction: column
     .form
+        +xxs-block
+            margin-bottom: 20px
         input
             padding-left: 32px
             background-color: #f8f8f8
@@ -94,6 +141,10 @@
     align-items: center
     background-color: #fff
 
+.header-wrapper__left
+    +xxs-block
+        max-width: 100px
+
 .header-wrapper__mid
     +laptopMini-block
         display: none
@@ -109,7 +160,7 @@
 
 .burger
     display: none
-    margin-right: 20px
+    // margin-right: 20px
 
     +laptopMini-block
         display: block
@@ -129,6 +180,7 @@
         margin-left: 48px
         cursor: pointer
         z-index: 4000
+
         span
             display: block
             position: absolute
@@ -150,7 +202,7 @@
                 display: inline-block
                 width: 48px
                 height: 3px
-                background-color: #00ffff
+                background-color: #fb973b
                 z-index: 5
 
             &:nth-child(2)
@@ -164,7 +216,7 @@
                 left: 3px
                 top: 3px
                 height: 8px
-                background-color: #00ffff
+                background-color: #fb973b
                 z-index: 5
                 width: 48px
                 height: 3px
@@ -184,7 +236,7 @@
                 display: inline-block
                 width: 48px
                 height: 3px
-                background-color: #00ffff
+                background-color: #fb973b
                 z-index: 5
 
         &.active
@@ -211,7 +263,7 @@
                     transform: rotate(-43deg)
                     z-index: 10
                     transition: 0.1s ease-in-out
-                    background-color: #00ffff
+                    background-color: #fb973b
                     top: 15px
                     right: 2px
                     &::after
@@ -248,7 +300,8 @@
         overflow-x: hidden
         background: #000
         transition: all 1s ease
-        .page__text-20-regular
+
+        .page__text-18-Regular
             color: #fff
         button
             background: #1E88E5

@@ -1,6 +1,10 @@
 .about
     padding-top: 132px
     padding-bottom: 200px
+    +laptopM-block
+        padding-top: 70px
+    +smM-block
+        padding-top: 45px
 
 .about-wrapper
     .page__title-h1
@@ -15,16 +19,32 @@
 .about-wrapper-center
     display: flex
     justify-content: center
+    +ipad-block
+        align-items: center
+    +smM-block
+        flex-direction: column
+        justify-content: center
 
 .about-wrapper-center__left
     margin-right: 25px
+    +smM-block
+        margin-right: 0px
+    .page__img
+        +fabletMid-block
+            max-width: 300px
+        +smM-block
+            margin-bottom: 35px
+            max-width: 260px
+        +xxs-block
+            max-width: 200px
 
 .about-wrapper-center__right
     display: flex
     flex-direction: column
-    // justify-content: center
     align-items: center
     margin-left: 25px
+    +smM-block
+        margin-left: 0
     .page__text-18-Regular-black
         max-width: 426px
         text-align: center
