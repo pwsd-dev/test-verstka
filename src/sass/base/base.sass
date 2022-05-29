@@ -25,14 +25,32 @@
 @font-face
   +font($font, $fontRegular)
 
-@font-face
-  +font(Calibri, "Calibri-Regular")
+// @font-face
+//   +font(Calibri, "Calibri-Regular")
+
+// @font-face
+//   +font(Calibri, "Calibri-Bold")
+
+// @font-face
+//   +font(SFUIDisplay, "SFUIDisplay-Medium")
 
 @font-face
-  +font(Calibri, "Calibri-Bold")
+  font-family: "Calibri-Regular"
+  src: url(../fonts/Calibri/Calibri-Regular.ttf) format("truetype")
+  font-style: normal
+  font-weight: normal
 
 @font-face
-  +font(SFUIDisplay, "SFUIDisplay-Medium")
+  font-family: "Calibri-Bold"
+  src: url(../fonts/Calibri/Calibri-Bold.ttf) format("truetype")
+  font-style: normal
+  font-weight: normal
+
+@font-face
+  font-family: "SFUIDisplay-Medium"
+  src: url(../fonts/SFUIDisplay/SFUIDisplay-Medium.ttf) format("truetype")
+  font-style: normal
+  font-weight: normal
 
 body
   font-family: $fontRegular
