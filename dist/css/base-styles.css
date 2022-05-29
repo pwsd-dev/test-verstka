@@ -173,21 +173,21 @@ img {
 
 @font-face {
   font-family: "Calibri-Regular";
-  src: url("../fonts/Calibri/Calibri-Regular.ttf") format("truetype"), url("../fonts/Calibri/Calibri-Regular.woff") format("woff");
+  src: url("/fonts/Calibri/Calibri-Regular.ttf") format("truetype"), url("../fonts/Calibri/Calibri-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Calibri-Bold";
-  src: url("../fonts/Calibri/Calibri-Bold.ttf") format("truetype"), url("../fonts/Calibri/Calibri-Bold.woff") format("woff");
+  src: url("/fonts/Calibri/Calibri-Bold.ttf") format("truetype"), url("../fonts/Calibri/Calibri-Bold.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "SFUIDisplay-Medium";
-  src: url("../fonts/SFUIDisplay/SFUIDisplay-Medium.ttf") format("truetype");
+  src: url("/fonts/SFUIDisplay/SFUIDisplay-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
